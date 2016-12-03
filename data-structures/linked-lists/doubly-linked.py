@@ -38,6 +38,34 @@ class LinkedList:
 
         self.cnt += 1
 
+    def insert(self, pos, x):
+        node = Node(x)
+        diff = self.cnt - pos
+
+        if diff < 0 or diff > self.cnt:
+            print("Invalid position")
+            return
+
+        elif diff == 0:
+            self.addTail(x)
+
+        elif diff == self.cnt:
+            self.addHead(x)
+
+        else:
+            cur = self.head
+
+            while pos > 1:
+                cur = cur.next
+                pos -= 1
+
+            node.next = cur.next
+            node.prev = cur
+            cur.next.prev = node
+            cur.next = node
+
+        self.cnt += 1
+
     def removeHead(self):
         if self.cnt == 0:
             return
@@ -68,8 +96,49 @@ class LinkedList:
 
         self.cnt -= 1
 
+    def removePos(self, pos):
+        diff = self.cnt - pos
+
+        if diff < 0 or diff > self.cnt:
+            print("Invalid position")
+            return
+
+        elif diff == 0:
+            self.removeTail()
+
+        elif diff == self.cnt:
+            self.removeHead()
+
+        else:
+            cur = self.head
+            while pos > 1:
+                cur = cur.next
+
+            cur.next = cur.next.next
+            cur.next.prev = cur
+            cur = cur.next
+
+        self.cnt -= 1
+
+    def __getitem__(self, item):
+        if item < 0 or item > self.cnt - 1:
+            print("Invalid position")
+            return
+
+        else:
+            cur = self.head
+
+            while item > 0:
+                cur = cur.next
+                item -= 1
+
+            return cur.val
+
     def size(self):
         return self.cnt
+
+    def empty(self):
+        return self.cnt == 0
 
     def printForward(self):
         cur = self.head

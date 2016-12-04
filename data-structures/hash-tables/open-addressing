@@ -4,17 +4,15 @@ class HashTable:
         self.n = 4
         self.count = 0
         self.load = 0.75
-        self.table = []
-        for i in range(0, self.size):
-            self.table.append([])
+        self.table = [None]*self.size
 
     def __nextPrime(self):
         self.size = 2**self.n -1
-        self.n += 1
+        return self.size
 
-    def __hash(self, key):
-        if (type(key) is str):
-            hash = ((ord(key)*5)+2)//3        #  random hashing function (replace with better function)
+    def __hash(self, key):              #  random hashing function (replace with better function)
+        if (type(key) is str):          #  accepts chars, strings, and ints
+            hash = ((ord(key)*5)+2)//3
 
         else:
             hash = (key*5+2)//3
@@ -23,21 +21,38 @@ class HashTable:
         return index
 
     def __resize(self):
-        self.__nextPrime()
+        self.size = self.__nextPrime()
+        self.n += 1
         tmp = []
         for i in range(0, self.size):
             tmp.append([])
 
         for i in self.table:
-            if len(i) != 0:
-                for j in i:
-                    index = self.__hash(j)
-                    self.table[index].append(j)
+            if i is not None:
+                index = self.__hash(i)
+                self.table[index] = i
 
     def set(self, key):
         index = self.__hash(key)
-        self.table[index].append(key)
-        self.count += 1
+        if self.table[index] is None:
+            self.table[index] = key
+
+        else:
+            i = 1
+            newIndex = index + 1
+            if newIndex >= self.size:
+                newIndex = newIndex % self.size
+
+            while self.table[newIndex]:
+                #i += 1                     #  linear probing
+                i = (i+1)**2                #  quadratic probing
+                newIndex += i
+
+                if newIndex >= self.size:
+                    newIndex = newIndex % self.size
+
+            self.table[newIndex] = key
+            self.count += 1
 
         if self.count/self.size >= self.load:
             self.__resize()
@@ -81,3 +96,4 @@ test.set(-1)
 
 for i in test:
     print(i)
+

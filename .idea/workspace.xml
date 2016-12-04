@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f95977c2-d429-4846-b937-a79a60e69611" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-structures/hash-tables/open-addressing" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py" afterPath="$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="interview-prep.iws" />
@@ -34,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="separate-chaining.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="separate-chaining.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6825938">
-              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="open-addressing" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-structures/hash-tables/open-addressing">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0870308">
+              <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -68,6 +79,7 @@
         <option value="$PROJECT_DIR$/data-structures/linked-lists/doubly-linked.py" />
         <option value="$PROJECT_DIR$/data-structures/trees/bst.py" />
         <option value="$PROJECT_DIR$/data-structures/trees/avl.py" />
+        <option value="$PROJECT_DIR$/data-structures/hash-tables/open-addressing" />
         <option value="$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py" />
       </list>
     </option>
@@ -264,23 +276,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="deque" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Avery\AppData\Local\Programs\Python\Python35-32\pythonw.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-structures/queues" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interview-guide" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structures/queues/deque.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="merge-sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,6 +323,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="interview-guide" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="open-addressing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-structures/hash-tables" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interview-guide" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structures/hash-tables/open-addressing" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -456,18 +468,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.bst" />
-      <item index="1" class="java.lang.String" itemvalue="Python.deque" />
-      <item index="2" class="java.lang.String" itemvalue="Python.merge-sort" />
-      <item index="3" class="java.lang.String" itemvalue="Python.avl" />
-      <item index="4" class="java.lang.String" itemvalue="Python.separate-chaining" />
+      <item index="1" class="java.lang.String" itemvalue="Python.merge-sort" />
+      <item index="2" class="java.lang.String" itemvalue="Python.avl" />
+      <item index="3" class="java.lang.String" itemvalue="Python.separate-chaining" />
+      <item index="4" class="java.lang.String" itemvalue="Python.open-addressing" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.separate-chaining" />
-        <item index="1" class="java.lang.String" itemvalue="Python.avl" />
-        <item index="2" class="java.lang.String" itemvalue="Python.bst" />
-        <item index="3" class="java.lang.String" itemvalue="Python.merge-sort" />
-        <item index="4" class="java.lang.String" itemvalue="Python.deque" />
+        <item index="1" class="java.lang.String" itemvalue="Python.open-addressing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.avl" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bst" />
+        <item index="4" class="java.lang.String" itemvalue="Python.merge-sort" />
       </list>
     </recent_temporary>
   </component>
@@ -625,8 +637,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6825938">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structures/hash-tables/open-addressing">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0870308">
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
           <folding />
         </state>
       </provider>

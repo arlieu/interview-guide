@@ -32,7 +32,9 @@ class HashTable:
             if len(i) != 0:
                 for j in i:
                     index = self.__hash(j)
-                    self.table[index].append(j)
+                    tmp[index].append(j)
+
+        self.table[:] = tmp
 
     def set(self, key):
         index = self.__hash(key)

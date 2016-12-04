@@ -3,12 +3,12 @@ class HashTable:
         self.size = 13
         self.n = 4
         self.count = 0
-        self.load = 0.75
+        self.load = 0.6
         self.table = [None]*self.size
 
     def __nextPrime(self):
         self.size = 2**self.n -1
-        return self.size
+        self.n += 1
 
     def __hash(self, key):              #  random hashing function (replace with better function)
         if (type(key) is str):          #  accepts chars, strings, and ints
@@ -21,16 +21,31 @@ class HashTable:
         return index
 
     def __resize(self):
-        self.size = self.__nextPrime()
-        self.n += 1
-        tmp = []
-        for i in range(0, self.size):
-            tmp.append([])
+        self.__nextPrime()
+        tmp = [None]*self.size
 
         for i in self.table:
             if i is not None:
                 index = self.__hash(i)
-                self.table[index] = i
+                if tmp[index] is None:
+                    tmp[index] = i
+                else:
+                    j = 1
+                    newIndex = index + 1
+                    if newIndex >= self.size:
+                        newIndex %= self.size
+
+                    while tmp[newIndex]:
+                        #j += 1                     #  linear probing
+                        j = (j+1)**2                #  quadratic probing
+                        newIndex += j
+
+                        if newIndex >= self.size:
+                            newIndex %= self.size
+
+                    tmp[newIndex] = i
+
+        self.table[:] = tmp
 
     def set(self, key):
         index = self.__hash(key)
@@ -41,7 +56,7 @@ class HashTable:
             i = 1
             newIndex = index + 1
             if newIndex >= self.size:
-                newIndex = newIndex % self.size
+                newIndex %= self.size
 
             while self.table[newIndex]:
                 #i += 1                     #  linear probing
@@ -49,10 +64,11 @@ class HashTable:
                 newIndex += i
 
                 if newIndex >= self.size:
-                    newIndex = newIndex % self.size
+                    newIndex %= self.size
 
             self.table[newIndex] = key
-            self.count += 1
+
+        self.count += 1
 
         if self.count/self.size >= self.load:
             self.__resize()
@@ -68,32 +84,7 @@ class HashTable:
     def __contains__(self, key):
         index = self.__hash(key)
 
-        return key in self.table[index]
+        return key == self.table[index]
 
     def __len__(self):
         return self.count
-
-
-test = HashTable()
-test.set(100)
-test.set(150)
-test.set(200)
-test.set(211)
-for i in test:
-    print(i)
-print("------------------")
-test.set(300)
-test.set(400)
-test.set(500)
-test.set(600)
-test.set(700)
-test.set(800)
-test.set(900)
-test.set(1100)
-test.set(13)
-test.set(15)
-test.set(-1)
-
-for i in test:
-    print(i)
-

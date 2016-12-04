@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f95977c2-d429-4846-b937-a79a60e69611" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-structures/hash-tables/open-addressing" afterPath="$PROJECT_DIR$/data-structures/hash-tables/open-addressing" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py" afterPath="$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="interview-prep.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+              <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -48,8 +46,8 @@
       <file leaf-file-name="open-addressing" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data-structures/hash-tables/open-addressing">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5819113">
-              <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+            <state vertical-scroll-proportion="-1.5238907">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -79,8 +77,8 @@
         <option value="$PROJECT_DIR$/data-structures/linked-lists/doubly-linked.py" />
         <option value="$PROJECT_DIR$/data-structures/trees/bst.py" />
         <option value="$PROJECT_DIR$/data-structures/trees/avl.py" />
-        <option value="$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py" />
         <option value="$PROJECT_DIR$/data-structures/hash-tables/open-addressing" />
+        <option value="$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py" />
       </list>
     </option>
   </component>
@@ -667,15 +665,15 @@
     <entry file="file://$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structures/hash-tables/open-addressing">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5819113">
-          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+        <state vertical-scroll-proportion="-1.5238907">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>

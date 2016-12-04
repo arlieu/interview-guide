@@ -59,27 +59,3 @@ class HashTable:
 
     def __len__(self):
         return self.count
-
-
-test = HashTable()
-test.set(100)
-test.set(150)
-test.set(200)
-test.set(211)
-for i in test:
-    print(i)
-print("------------------")
-test.set(300)
-test.set(400)
-test.set(500)
-test.set(600)
-test.set(700)
-test.set(800)
-test.set(900)
-test.set(1100)
-test.set(13)
-test.set(15)
-test.set(-1)
-
-for i in test:
-    print(i)

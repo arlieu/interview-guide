@@ -5,7 +5,7 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 --------------------------------
 <br />
 
-## [Data Structures](https://github.com/arlieu/interview-guide/tree/master/data-structures)
+## Data Structures
 
 |**Linked Lists**|||
 |:---|:---|:---|

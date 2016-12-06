@@ -50,8 +50,13 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |Counting Sort|code|notes|
 |Radix Sort|code|notes|
 
-### Greedy 
+### Graphing
 
+|**Greedy**|||
+|:---|:---|:---|
+|Bellman-Ford|code|notes|
+|Dijkstra|code|notes|
+|Kruskal|code|notes|
 ----------------------------------
 <br />
 

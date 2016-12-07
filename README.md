@@ -18,7 +18,7 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |**[Queues](https://github.com/arlieu/interview-guide/wiki/Data-Structures#queues)**|||
 |FIFO|[code](https://github.com/arlieu/interview-prep/blob/master/data-structures/queues/FIFO.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#fifo)|
 |Deque|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/queues/deque.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#deque)|
-|Priority Queue|code|notes|
+|Priority Queue|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#priority-queue)|
 |**Trees**|||
 |BST|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/trees/bst.py)|notes|
 |AVL|code|notes|
@@ -27,7 +27,7 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |Open Addressing|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/hash-tables/open-addressing)|notes|
 |Separate Chaining|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/hash-tables/separate-chaining.py)|notes|
 |**Graphs**|||
-|Adjacency List|code|notes|
+|Adjacency List|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/graphs/adjacency-list.py)|notes|
 |Adjacency Matrix|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/graphs/adjacency-matrix.py)|notes|
 
 <br />
@@ -39,16 +39,16 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 
 ### Sorting 
 
-|**Bubblesorts**|||
+|**[Bubblesorts](https://github.com/arlieu/interview-guide/wiki/Algorithms#bubblesorts)**|||
 |:---|:---|:---|
-|Bubblesort|code|notes|
-|**Simpe Sorts**|||
-|Insertion Sort|code|notes|
-|Selection Sort|code|notes|
-|**Efficient Sorts**|||
-|Merge Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/efficient/merge-sort.py)|notes|
-|Quicksort Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/efficient/quick-sort.py)|notes|
-|Heapsort|code|notes|
+|Bubblesort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/bubble/bubblesort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#bubblesorts)|
+|**[Simple Sorts](https://github.com/arlieu/interview-guide/wiki/Algorithms#simple-sorts)**|||
+|Insertion Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/simple/insertion-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#insertion-sort)|
+|Selection Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/simple/selection-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#selection-sort)|
+|**[Efficient Sorts](https://github.com/arlieu/interview-guide/wiki/Algorithms#efficient-sorts)**|||
+|Merge Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/efficient/merge-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#merge-sort)|
+|Quicksort Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/efficient/quick-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#quicksort)|
+|Heapsort|code|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#heapsort)|
 |**Distributed Sorts**|||
 |Bucket Sort|code|notes|
 |Counting Sort|code|notes|

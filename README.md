@@ -2,20 +2,22 @@
 
 This repo is my guide for interview preparation. Feel free to use it as you see fit. It consists of common data structure and algorithm implementations, complexity analyses, and interview questions I have come across. My implementations are done in Python for uniformity and convenience. However, the solutions that I provided to the interview questions are not necessarily done in Python. 
 
---------------------------------
 <br />
+
+--------------------------------
+
 
 ## Data Structures
 
-|**Linked Lists**|||
+|**[Linked Lists](https://github.com/arlieu/interview-guide/wiki/Data-Structures#linked-lists)**|||
 |:---|:---|:---|
-|Singly Linked|[code](https://github.com/arlieu/interview-prep/blob/master/data-structures/linked-lists/singly-linked.py)|notes|
-|Doubly Loinked|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/linked-lists/doubly-linked.py)|notes|
-|**Stacks**|||
-|LIFO|[code](https://github.com/arlieu/interview-prep/blob/master/data-structures/stacks/LIFO.py)|notes|
-|**Queues**|||
-|FIFO|[code](https://github.com/arlieu/interview-prep/blob/master/data-structures/queues/FIFO.py)|notes|
-|Deque|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/queues/deque.py)|notes|
+|Singly Linked|[code](https://github.com/arlieu/interview-prep/blob/master/data-structures/linked-lists/singly-linked.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#singly-linked-list)|
+|Doubly Linked|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/linked-lists/doubly-linked.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#doubly-linked-list)|
+|**[Stacks](https://github.com/arlieu/interview-guide/wiki/Data-Structures#stacks)**|||
+|LIFO|[code](https://github.com/arlieu/interview-prep/blob/master/data-structures/stacks/LIFO.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#stacks)|
+|**[Queues](https://github.com/arlieu/interview-guide/wiki/Data-Structures#queues)**|||
+|FIFO|[code](https://github.com/arlieu/interview-prep/blob/master/data-structures/queues/FIFO.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#fifo)|
+|Deque|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/queues/deque.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#deque)|
 |Priority Queue|code|notes|
 |**Trees**|||
 |BST|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/trees/bst.py)|notes|
@@ -28,8 +30,10 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |Adjacency List|code|notes|
 |Adjacency Matrix|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/graphs/adjacency-matrix.py)|notes|
 
--------------------------
 <br />
+
+-------------------------
+
 
 ## Algorithms
 
@@ -57,7 +61,10 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |Bellman-Ford|code|notes|
 |Dijkstra|code|notes|
 |Kruskal|code|notes|
-----------------------------------
+
 <br />
+
+----------------------------------
+
 
 ## Interview Questions and Solutions

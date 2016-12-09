@@ -19,10 +19,10 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |FIFO|[code](https://github.com/arlieu/interview-prep/blob/master/data-structures/queues/FIFO.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#fifo)|
 |Deque|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/queues/deque.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#deque)|
 |Priority Queue|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#priority-queue)|
-|**Trees**|||
-|BST|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/trees/bst.py)|notes|
-|AVL|code|notes|
-|Red-Black|code|notes|
+|**[Trees](https://github.com/arlieu/interview-guide/wiki/Data-Structures#trees)**|||
+|BST|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/trees/bst.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#bst)|
+|AVL|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#avl)|
+|Red-Black|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#red-black)|
 |**Hash Tables**|||
 |Open Addressing|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/hash-tables/open-addressing)|notes|
 |Separate Chaining|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/hash-tables/separate-chaining.py)|notes|
@@ -49,10 +49,10 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |Merge Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/efficient/merge-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#merge-sort)|
 |Quicksort Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/efficient/quick-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#quicksort)|
 |Heapsort|code|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#heapsort)|
-|**Distributed Sorts**|||
-|Bucket Sort|code|notes|
-|Counting Sort|code|notes|
-|Radix Sort|code|notes|
+|**[Distribution Sorts](https://github.com/arlieu/interview-guide/wiki/Algorithms#distribution-sorts)**|||
+|Bucket Sort|code|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#bucket-sort)|
+|Counting Sort|code|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms/#counting-sort)|
+|Radix Sort|code|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms/#radix-sort)|
 
 ### Graphing
 

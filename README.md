@@ -23,12 +23,12 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |BST|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/trees/bst.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#bst)|
 |AVL|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#avl)|
 |Red-Black|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#red-black)|
-|**Hash Tables**|||
-|Open Addressing|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/hash-tables/open-addressing)|notes|
-|Separate Chaining|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/hash-tables/separate-chaining.py)|notes|
-|**Graphs**|||
-|Adjacency List|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/graphs/adjacency-list.py)|notes|
-|Adjacency Matrix|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/graphs/adjacency-matrix.py)|notes|
+|**[Hash Tables](https://github.com/arlieu/interview-guide/wiki/Data-Structures#hash-tables)**|||
+|Open Addressing|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/hash-tables/open-addressing)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#open-addressing)|
+|Separate Chaining|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/hash-tables/separate-chaining.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#separate-chaining)|
+|**[Graphs](https://github.com/arlieu/interview-guide/wiki/Data-Structures#graphs)**|||
+|Adjacency List|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/graphs/adjacency-list.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#adjacency-list)|
+|Adjacency Matrix|[code](https://github.com/arlieu/interview-guide/blob/master/data-structures/graphs/adjacency-matrix.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#adjacency-matrix)|
 
 <br />
 

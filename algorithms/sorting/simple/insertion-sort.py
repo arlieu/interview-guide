@@ -1,7 +1,3 @@
-def swap(x, y):
-    return y, x
-
-
 def insertionSort(array):
     for i in range(1, len(array)):
         j = i
@@ -10,4 +6,6 @@ def insertionSort(array):
             array[j], array[j-1] = swap(array[j], array[j-1])
             j -= 1
 
-    return array
+
+def swap(x, y):
+    return y, x

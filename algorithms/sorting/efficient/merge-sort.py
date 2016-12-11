@@ -1,3 +1,18 @@
+def mergeSort(array):
+    length = len(array)
+    if length < 2:
+        return
+
+    mid = length//2
+
+    l = [x for x in array[:mid]]
+    u = [x for x in array[mid:]]
+
+    mergeSort(l)
+    mergeSort(u)
+    res = merge(l, u, array)
+
+
 def merge(lower, upper, array):
     nL = len(lower)
     nU = len(upper)
@@ -22,23 +37,3 @@ def merge(lower, upper, array):
         j+=1
         k+=1
     return array
-
-def mergeSort(array):
-    length = len(array)
-    if length < 2:
-        return
-
-    mid = length//2
-
-    l = [x for x in array[:mid]]
-    u = [x for x in array[mid:]]
-
-    mergeSort(l)
-    mergeSort(u)
-    res = merge(l, u, array)
-    return res
-
-
-
-test = [1, 3, -4, 5, 6, 3,0]
-print(mergeSort(test))

@@ -1,7 +1,3 @@
-def swap(x, y):
-    return y, x
-
-
 def selectionSort(array):
     for i in range(0, len(array)):
         tmpMin = i
@@ -13,4 +9,6 @@ def selectionSort(array):
         if tmpMin != i:
             array[tmpMin], array[i] = swap(array[tmpMin], array[i])
 
-    return array
+
+def swap(x, y):
+    return y, x

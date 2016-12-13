@@ -1,4 +1,4 @@
-def countSort(array):
+def countingSort(array):
     upper = max(array)
     lower = min(array)
 

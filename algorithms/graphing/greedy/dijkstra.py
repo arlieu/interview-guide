@@ -2,8 +2,7 @@
 http://www.bogotobogo.com/python/python_Dijkstras_Shortest_Path_Algorithm.php'''
 
 
-import math
-import heapq
+import heapq, math
 
 
 class Vertex:
@@ -141,5 +140,5 @@ def shortest(v, path):
 
     return
 
-
+test = Graph()
 

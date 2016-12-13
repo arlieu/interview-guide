@@ -48,19 +48,21 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |**[Efficient Sorts](https://github.com/arlieu/interview-guide/wiki/Algorithms#efficient-sorts)**|||
 |Merge Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/efficient/merge-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#merge-sort)|
 |Quicksort Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/efficient/quick-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#quicksort)|
-|Heapsort|code|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#heapsort)|
+|Heapsort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/efficient/heapsort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#heapsort)|
 |**[Distribution Sorts](https://github.com/arlieu/interview-guide/wiki/Algorithms#distribution-sorts)**|||
-|Bucket Sort|code|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#bucket-sort)|
-|Counting Sort|code|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms/#counting-sort)|
-|Radix Sort|code|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms/#radix-sort)|
+|Bucket Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/distributed/bucket-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#bucket-sort)|
+|Counting Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/distributed/counting-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms/#counting-sort)|
+|Radix Sort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/distributed/radix-sort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms/#radix-sort)|
 
 ### Graphing
 
-|**Greedy**|||
+|**[Greedy](https://github.com/arlieu/interview-guide/wiki/Algorithms#greedy)**|||
 |:---|:---|:---|
-|Bellman-Ford|code|notes|
-|Dijkstra|code|notes|
-|Kruskal|code|notes|
+|Dijkstra's Algorithm|code|notes|
+|Kruskal's Algorithm|code|notes|
+|Prim's Algorithm|code|notes|
+|**[Dynamic Programming](https://github.com/arlieu/interview-guide/wiki/Algorithms#dynamic-programming)**|||
+|Bellman-Ford Algorithm|code|notes|
 
 <br />
 

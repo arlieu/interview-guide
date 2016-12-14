@@ -58,7 +58,7 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 
 |**[Greedy](https://github.com/arlieu/interview-guide/wiki/Algorithms#greedy)**|||
 |:---|:---|:---|
-|Dijkstra's Algorithm|code|notes|
+|Dijkstra's Algorithm|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/graphing/greedy/dijkstra.py)|notes|
 |Kruskal's Algorithm|code|notes|
 |Prim's Algorithm|code|notes|
 |**[Dynamic Programming](https://github.com/arlieu/interview-guide/wiki/Algorithms#dynamic-programming)**|||
@@ -69,4 +69,22 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 ----------------------------------
 
 
-## Interview Questions and Solutions
+## Interview Q&A
+
+### Coding
+
+|**Easy**|||
+|:---|:---|:---|
+|Balanced Delimiters|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/balanced-delimiters.py)|notes|
+|First Repeating Character|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/first-repeating-character.py)|notes|
+|Add Reversed Linked Lists|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/add-reversed-linked-list.py)|notes|
+|**Medium**|||
+||code|notes|
+||code|notes|
+||code|notes|
+|**Hard**|||
+||code|notes|
+||code|notes|
+||code|notes|
+
+### Theory/Technology

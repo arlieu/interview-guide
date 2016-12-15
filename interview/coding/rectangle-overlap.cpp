@@ -1,3 +1,6 @@
+
+
+
 #include <iostream>
 using namespace std;
 
@@ -18,4 +21,9 @@ bool overlap(Point l1, Point r1, Point l2, Point r2) {
     }
 
     return true;
+}
+
+
+int main() {
+    return 0;
 }

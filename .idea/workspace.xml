@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f95977c2-d429-4846-b937-a79a60e69611" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview/coding/rectangle-overlap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interview/coding/rectangle-overlap" afterPath="$PROJECT_DIR$/interview/coding/rectangle-overlap" />
     </list>
     <ignored path="interview-prep.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="rectangle-overlap" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interview/coding/rectangle-overlap">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3633296">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.3824522">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -924,8 +923,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interview/coding/rectangle-overlap">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3633296">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.3824522">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
         </state>
       </provider>

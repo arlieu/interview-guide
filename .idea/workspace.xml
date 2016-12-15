@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f95977c2-d429-4846-b937-a79a60e69611" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interview/coding/rectangle-overlap" afterPath="$PROJECT_DIR$/interview/coding/rectangle-overlap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview/coding/rectangle-overlap.cpp" />
+      <change type="MOVED" beforePath="C:\Users\Avery\Documents\GitHub\interview-guide\interview\coding\rectangle-overlap" afterPath="$PROJECT_DIR$/interview/coding/rectangle-overlap.cpp" />
     </list>
     <ignored path="interview-prep.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rectangle-overlap" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interview/coding/rectangle-overlap">
+      <file leaf-file-name="rectangle-overlap.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interview/coding/rectangle-overlap.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3824522">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.01912261">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="first-repeating-character.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interview/coding/first-repeating-character.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -254,6 +265,9 @@
     <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Avery\Documents\GitHub\interview-guide\interview\coding" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Avery\Documents\GitHub\interview-guide\algorithms\graphing" />
     </key>
@@ -561,14 +575,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interview/coding/add-reversed-linked-list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-structures/linked-lists/singly-linked.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -889,14 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/coding/first-repeating-character.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09550562">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/coding/balanced-delimiters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -921,10 +919,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/coding/rectangle-overlap">
+    <entry file="file://$PROJECT_DIR$/interview/coding/first-repeating-character.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3824522">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/coding/rectangle-overlap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01912261">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,6 @@
 # Interview Guide
 
-This repo is my guide for interview preparation. Feel free to use it as you see fit. It consists of common data structure and algorithm implementations, complexity analyses, and interview questions I have come across. My implementations are done in Python for uniformity and convenience. However, the solutions that I provided to the interview questions are not necessarily done in Python. 
+This repo is my guide for interview preparation. Feel free to use it as you see fit. It consists of common data structure and algorithm implementations and notes, complexity analyses, and interview questions I have come across. My implementations are done in Python for uniformity and convenience. However, the solutions that I provided to the interview questions are not necessarily done in Python. 
 
 <br />
 
@@ -78,12 +78,13 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |Balanced Delimiters|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/balanced-delimiters.py)|notes|
 |First Repeating Character|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/first-repeating-character.py)|notes|
 |Add Reversed Linked Lists|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/add-reversed-linked-list.py)|notes|
+|Rectangle Overlap|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/rectangle-overlap.cpp)|notes|
 |**Medium**|||
-||code|notes|
-||code|notes|
+|NxN Board Game|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/nxn-board-game.py)|notes|
+|Longest Palindromic Substring|code|notes|
 ||code|notes|
 |**Hard**|||
-||code|notes|
+|Kth Closest Point|code|notes|
 ||code|notes|
 ||code|notes|
 

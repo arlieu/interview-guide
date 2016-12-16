@@ -76,7 +76,7 @@ def winner(matrix):
     elif red < black:
         print("Black is the winner")
         return 0
-    
+
     else:
         print("Tie game")
         return -1

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f95977c2-d429-4846-b937-a79a60e69611" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview/coding/hard/kth-closest-point" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview/coding/medium/nxn-board-game.py" />
-      <change type="MOVED" beforePath="C:\Users\Avery\Documents\GitHub\interview-guide\interview\coding\add-reversed-linked-list.py" afterPath="$PROJECT_DIR$/interview/coding/easy/add-reversed-linked-list.py" />
-      <change type="MOVED" beforePath="C:\Users\Avery\Documents\GitHub\interview-guide\interview\coding\balanced-delimiters.py" afterPath="$PROJECT_DIR$/interview/coding/easy/balanced-delimiters.py" />
-      <change type="MOVED" beforePath="C:\Users\Avery\Documents\GitHub\interview-guide\interview\coding\first-repeating-character.py" afterPath="$PROJECT_DIR$/interview/coding/easy/first-repeating-character.py" />
-      <change type="MOVED" beforePath="C:\Users\Avery\Documents\GitHub\interview-guide\interview\coding\rectangle-overlap.cpp" afterPath="$PROJECT_DIR$/interview/coding/easy/rectangle-overlap.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interview/coding/medium/nxn-board-game.py" afterPath="$PROJECT_DIR$/interview/coding/medium/nxn-board-game.py" />
     </list>
     <ignored path="interview-prep.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kth-closest-point" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interview/coding/hard/kth-closest-point">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08688245">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nxn-board-game.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nxn-board-game.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interview/coding/medium/nxn-board-game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+            <state vertical-scroll-proportion="2.2589438">
+              <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -951,14 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/coding/medium/nxn-board-game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/coding/easy/rectangle-overlap.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21805792">
@@ -971,6 +947,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08688245">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/coding/medium/nxn-board-game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2589438">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
           <folding />
         </state>
       </provider>

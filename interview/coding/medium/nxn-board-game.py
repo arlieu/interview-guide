@@ -15,57 +15,68 @@ def winner(matrix):
                     black += 1
                 else:
                     red += 1
+
             # right
             if i+2 < n and matrix[i][j] == matrix[i+1][j] == matrix[i+2][j]:
                 if matrix[i][j] == 0:
                     black += 1
                 else:
                     red += 1
+
             # up
             if j-2 >= 0 and matrix[i][j-2] == matrix[i][j-1] == matrix[i][j]:
                 if matrix[i][j] == 0:
                     black += 1
                 else:
                     red += 1
+
             # down
             if j+2 < n and matrix[i][j] == matrix[i][j+1] == matrix[i][j+2]:
                 if matrix[i][j] == 0:
                     black += 1
                 else:
                     red += 1
+
             # left-up diagonal
             if i-2 >= 0 and j-2 >= 0 and matrix[i-2][j-2] == matrix[i-1][j-1] == matrix[i][j]:
                 if matrix[i][j] == 0:
                     black += 1
                 else:
                     red += 1
+
             # right-up diagonal
             if i+2 < n and j-2 >= 0 and matrix[i][j] == matrix[i+1][j-1] == matrix[i+2][j-2]:
                 if matrix[i][j] == 0:
                     black += 1
                 else:
                     red += 1
+
             # right-down diagonal
             if i+2 < n and j+2 < n and matrix[i][j] == matrix[i+1][j+1] == matrix[i+2][j+2]:
                 if matrix[i][j] == 0:
                     black += 1
                 else:
                     red += 1
+
             # left-down diagonal
             if i-2 >= 0 and j+2 < n and matrix[i-2][j+2] == matrix[i-1][j+1] == matrix[i][j]:
                 if matrix[i][j] == 0:
                     black += 1
                 else:
                     red += 1
+
     red /= 2
     black /= 2
+
     print("Black: %d\nRed: %d" % (black, red))
     if red > black:
         print("Red is the winner.")
         return 1
+
     elif red < black:
         print("Black is the winner")
         return 0
+    
     else:
         print("Tie game")
         return -1

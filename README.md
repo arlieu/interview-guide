@@ -81,8 +81,9 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |Rectangle Overlap|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/rectangle-overlap.cpp)|notes|
 |**Medium**|||
 |NxN Board Game|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/nxn-board-game.py)|notes|
-|Longest Palindromic Substring|code|notes|
-||code|notes|
+|Longest Palindrome|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/longest-palindrome.cpp)|notes|
+|Product Seeds|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/product-seeds.py)|notes|
+|Iterative Inorder Traversal|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/iterative-inorder-tree-traversal.py)|notes|
 |**Hard**|||
 |Kth Closest Point|code|notes|
 ||code|notes|

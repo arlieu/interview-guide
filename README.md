@@ -79,14 +79,25 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |First Repeating Character|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/first-repeating-character.py)|notes|
 |Add Reversed Linked Lists|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/add-reversed-linked-list.py)|notes|
 |Rectangle Overlap|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/rectangle-overlap.cpp)|notes|
+|Greatest Time|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/greatest-time.py)|notes|
 |**Medium**|||
 |NxN Board Game|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/nxn-board-game.py)|notes|
 |Longest Palindrome|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/longest-palindrome.cpp)|notes|
 |Product Seeds|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/product-seeds.py)|notes|
 |Iterative Inorder Traversal|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/iterative-inorder-tree-traversal.py)|notes|
+|Minimum Length Subarray|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/minimum-length-unsorted-subarray.py)|notes|
 |**Hard**|||
 |Kth Closest Point|code|notes|
 ||code|notes|
 ||code|notes|
+
+### Brain Teasers
+|**Easy**||
+|:---|:--|
+|Sudoku Sub-Grid|[Problem](https://github.com/arlieu/interview-guide/wiki/Interview-Q&A#sudoku-sub-grid)|
+|10x10x10 Rubik's Cube|[Problem](https://github.com/arlieu/interview-guide/wiki/Interview-Q&A#10x10x10-rubiks-cube)|
+|**Medium**||
+|Three Wise Men|[Problem](https://github.com/arlieu/interview-guide/wiki/Interview-Q&A#three-wise-men-riddle)|
+|**Hard**||
 
 ### Theory/Technology

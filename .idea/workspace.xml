@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f95977c2-d429-4846-b937-a79a60e69611" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview/coding/hard/kth-nearest-neighbor.cpp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/interview/coding/hard/kth-closest-point" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interview/coding/hard/kth-nearest-neighbor.cpp" afterPath="$PROJECT_DIR$/interview/coding/hard/kth-nearest-point.cpp" />
     </list>
     <ignored path="interview-prep.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kth-nearest-neighbor.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interview/coding/hard/kth-nearest-neighbor.cpp">
+      <file leaf-file-name="kth-nearest-point.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interview/coding/hard/kth-nearest-point.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="416">
+              <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -1107,10 +1106,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/coding/hard/kth-nearest-neighbor.cpp">
+    <entry file="file://$PROJECT_DIR$/interview/coding/hard/kth-nearest-point.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="416">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
           <folding />
         </state>
       </provider>

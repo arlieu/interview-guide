@@ -51,6 +51,9 @@ class AdjacencyMatrix:
                 print(", " + str(i), end = "")
             print("]")
 
+    def __len__(self):
+        return self.n
+
     def __str__(self):
         # printing only formatted correctly for matrices of n < 11
         res = ""
@@ -71,3 +74,11 @@ class AdjacencyMatrix:
             res += "]\n"
 
         return res
+
+
+if __name__ == "__main__":
+    x = AdjacencyMatrix(6)
+    x.addEdge(3, 2)
+    x.addEdge(4, 1)
+    x.addEdge(7, 2)
+    print(x)

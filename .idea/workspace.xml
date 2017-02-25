@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f95977c2-d429-4846-b937-a79a60e69611" name="Default" comment="Modularized data_structures and algorithms, linked list palindrome">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview/coding/hard/shortest-path-obstacle-avoidance.py" />
+    <list default="true" id="f95977c2-d429-4846-b937-a79a60e69611" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview/coding/easy/bst.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview/coding/easy/merge-sort.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures/graphs/adjacency_matrix.py" afterPath="$PROJECT_DIR$/data_structures/graphs/adjacency_matrix.py" />
     </list>
     <ignored path="interview-prep.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,11 +19,13 @@
     <SUITE FILE_PATH="coverage/interview-guide$prime_numbers.coverage" NAME="prime-numbers Coverage Results" MODIFIED="1486853791984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/easy" />
     <SUITE FILE_PATH="coverage/interview-guide$linked_list_palindrome.coverage" NAME="linked-list-palindrome Coverage Results" MODIFIED="1487433951312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/medium" />
     <SUITE FILE_PATH="coverage/interview-guide$adjacency_list.coverage" NAME="adjacency-list Coverage Results" MODIFIED="1486928138595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-structures/graphs" />
-    <SUITE FILE_PATH="coverage/interview-guide$shortest_path_with_obstacles.coverage" NAME="shortest-path-with-obstacles Coverage Results" MODIFIED="1487985944354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/hard" />
+    <SUITE FILE_PATH="coverage/interview-guide$shortest_path_with_obstacles.coverage" NAME="shortest-path-with-obstacles Coverage Results" MODIFIED="1487987224810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/hard" />
+    <SUITE FILE_PATH="coverage/interview-guide$merge_sort.coverage" NAME="merge-sort Coverage Results" MODIFIED="1487988547028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/easy" />
     <SUITE FILE_PATH="coverage/interview-guide$minimum_length_unsorted_subarray.coverage" NAME="minimum-length-unsorted-subarray Coverage Results" MODIFIED="1486829540279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/medium" />
     <SUITE FILE_PATH="coverage/interview-guide$test.coverage" NAME="test Coverage Results" MODIFIED="1486928290517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/easy" />
     <SUITE FILE_PATH="coverage/interview-guide$add_reversed_linked_list.coverage" NAME="add-reversed-linked-list Coverage Results" MODIFIED="1487433184330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/easy" />
     <SUITE FILE_PATH="coverage/interview-guide$greatest_time.coverage" NAME="greatest-time Coverage Results" MODIFIED="1486829594532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/easy" />
+    <SUITE FILE_PATH="coverage/interview-guide$bst.coverage" NAME="bst Coverage Results" MODIFIED="1487989417661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/easy" />
     <SUITE FILE_PATH="coverage/interview-guide$adjacency_matrix.coverage" NAME="adjacency_matrix Coverage Results" MODIFIED="1487854527000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/graphs" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -35,23 +37,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="shortest-path-obstacle-avoidance.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interview/coding/hard/shortest-path-obstacle-avoidance.py">
+      <file leaf-file-name="bst.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interview/coding/easy/bst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <element signature="e#367#434#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="7">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adjacency_matrix.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structures/graphs/adjacency_matrix.py">
+      <file leaf-file-name="bst.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structures/trees/bst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -84,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data-structures/hash-tables/open-addressing" />
-        <option value="$PROJECT_DIR$/data-structures/hash-tables/separate-chaining.py" />
         <option value="$PROJECT_DIR$/data-structures/graphs/adjacency-matrix.py" />
         <option value="$PROJECT_DIR$/data-structures/graphs/adjacency-list.py" />
         <option value="$PROJECT_DIR$/algorithms/sorting/bubble/bubblesort.py" />
@@ -135,6 +133,8 @@
         <option value="$PROJECT_DIR$/algorithms/sorting/__init__.py" />
         <option value="$PROJECT_DIR$/data_structures/graphs/adjacency_matrix.py" />
         <option value="$PROJECT_DIR$/interview/coding/hard/shortest-path-with-obstacles.py" />
+        <option value="$PROJECT_DIR$/interview/coding/easy/merge-sort.py" />
+        <option value="$PROJECT_DIR$/interview/coding/easy/bst.py" />
       </list>
     </option>
   </component>
@@ -211,32 +211,6 @@
               <option name="myItemId" value="coding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="medium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -288,7 +262,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="graphs" />
+              <option name="myItemId" value="trees" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,25 +354,7 @@
       <recent name="C:\Users\Avery\Documents\GitHub\interview-guide\algorithms\graphing\greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.shortest-path-with-obstacles">
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview/coding/easy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interview-guide" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Avery\Documents\GitHub\interview-guide\interview\coding\easy\blob.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.bst">
     <configuration default="false" name="linked-list-palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,24 +369,6 @@
       <module name="interview-guide" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview/coding/medium/linked-list-palindrome.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="add-reversed-linked-list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview/coding/easy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interview-guide" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview/coding/easy/add-reversed-linked-list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -467,6 +405,42 @@
       <module name="interview-guide" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Avery\Documents\GitHub\interview-guide\interview\coding\hard\shortest-path-obstacle-avoidance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="merge-sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview/coding/easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interview-guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview/coding/easy/merge-sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bst" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview/coding/easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interview-guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview/coding/easy/bst.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -686,19 +660,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.linked-list-palindrome" />
-      <item index="2" class="java.lang.String" itemvalue="Python.add-reversed-linked-list" />
-      <item index="3" class="java.lang.String" itemvalue="Python.adjacency_matrix" />
-      <item index="4" class="java.lang.String" itemvalue="Python.shortest-path-with-obstacles" />
+      <item index="0" class="java.lang.String" itemvalue="Python.linked-list-palindrome" />
+      <item index="1" class="java.lang.String" itemvalue="Python.adjacency_matrix" />
+      <item index="2" class="java.lang.String" itemvalue="Python.shortest-path-with-obstacles" />
+      <item index="3" class="java.lang.String" itemvalue="Python.merge-sort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.bst" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.shortest-path-with-obstacles" />
-        <item index="1" class="java.lang.String" itemvalue="Python.adjacency_matrix" />
-        <item index="2" class="java.lang.String" itemvalue="Python.linked-list-palindrome" />
-        <item index="3" class="java.lang.String" itemvalue="Python.add-reversed-linked-list" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.bst" />
+        <item index="1" class="java.lang.String" itemvalue="Python.merge-sort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.shortest-path-with-obstacles" />
+        <item index="3" class="java.lang.String" itemvalue="Python.adjacency_matrix" />
+        <item index="4" class="java.lang.String" itemvalue="Python.linked-list-palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -730,7 +704,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487439088144</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Shortest path with obstacle avoidance">
+      <created>1487986116657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487986116657</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -743,7 +724,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32821077" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32821077" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -774,7 +755,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modularized data_structures and algorithms, linked list palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modularized data_structures and algorithms, linked list palindrome" />
+    <MESSAGE value="Shortest path with obstacle avoidance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shortest path with obstacle avoidance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -803,20 +785,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_structures/trees/bst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/linked_lists/singly_linked.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structures/linked_lists/singly_linked.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -922,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/trees/bst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/coding/medium/iterative-inorder-tree-traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -944,13 +905,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interview/coding/hard/kth-closest-point.cpp" />
-    <entry file="file://$PROJECT_DIR$/algorithms/sorting/efficient/merge_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/coding/hard/kth-nearest-point.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
@@ -1116,10 +1070,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/sorting/efficient/merge_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_structures/graphs/adjacency_matrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/coding/easy/merge-sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1131,6 +1101,22 @@
           <folding>
             <element signature="e#367#434#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures/trees/bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/coding/easy/bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

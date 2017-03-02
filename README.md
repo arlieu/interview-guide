@@ -20,9 +20,9 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |Deque|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/queues/deque.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#deque)|
 |Priority Queue|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#priority-queue)|
 |**[Trees](https://github.com/arlieu/interview-guide/wiki/Data-Structures#trees)**|||
-|BST|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/trees/bst.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#bst)|
-|AVL|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#avl)|
-|Red-Black|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#red-black)|
+|BST|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/trees/bst.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#binary-search-tree-bst)|
+|AVL|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/trees/avl.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#adelson-velskii-and-landis-avl-tree)|
+|Red-Black|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#red-black-tree)|
 |**[Hash Tables](https://github.com/arlieu/interview-guide/wiki/Data-Structures#hash-tables)**|||
 |Open Addressing|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/hash_tables/open_addressing.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#open-addressing)|
 |Separate Chaining|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/hash_tables/separate_chaining.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#separate-chaining)|
@@ -75,9 +75,9 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 
 |**Easy**|||
 |:---|:---|:---|
-|Balanced Delimiters|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/balanced-delimiters.py)|notes|
-|First Repeating Character|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/first-repeating-character.py)|notes|
-|Add Reversed Linked Lists|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/add-reversed-linked-list.py)|notes|
+|Balanced Delimiters|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/balanced-delimiters.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Interview-Q&A#balanced-delimiters)|
+|First Repeating Character|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/first-repeating-character.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Interview-Q&A#first-repeating-character)|
+|Add Reversed Linked Lists|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/add-reversed-linked-list.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Interview-Q&A#add-reversed-linked-lists)|
 |Rectangle Overlap|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/rectangle-overlap.cpp)|notes|
 |Greatest Time|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/greatest-time.py)|notes|
 |Prime Numbers|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/prime-numbers.py)|notes|

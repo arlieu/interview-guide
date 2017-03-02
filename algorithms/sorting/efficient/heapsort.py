@@ -10,6 +10,8 @@ def heapsort(array):
             array[0], array[i] = swap(array[0], array[i])
             shift(array, 0, i-1)
 
+    return array
+
 
 def shift(array, first, last):
     greatest = 2*first+1

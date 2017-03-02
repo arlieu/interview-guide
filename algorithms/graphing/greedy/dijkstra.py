@@ -139,6 +139,3 @@ def shortest(v, path):
         shortest(v.previous, path)
 
     return
-
-test = Graph()
-

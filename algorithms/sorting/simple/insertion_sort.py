@@ -6,6 +6,8 @@ def insertionSort(array):
             array[j], array[j-1] = swap(array[j], array[j-1])
             j -= 1
 
+    return array
+
 
 def swap(x, y):
     return y, x

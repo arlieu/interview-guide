@@ -1,9 +1,11 @@
-def quickSort(start, end, array):
+def quicksort(start, end, array):
     end -= 1
     if (start < end):
         pIndex = partition(start, end, array)
-        quickSort(start, pIndex-1, array)
-        quickSort(pIndex+1, end, array)
+        quicksort(start, pIndex - 1, array)
+        quicksort(pIndex + 1, end, array)
+
+    return array
 
 
 def partition(start, end, array):

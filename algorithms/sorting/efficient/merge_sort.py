@@ -12,6 +12,8 @@ def mergeSort(array):
     mergeSort(u)
     res = merge(l, u, array)
 
+    return res
+
 
 def merge(lower, upper, array):
     nL = len(lower)

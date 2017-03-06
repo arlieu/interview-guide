@@ -121,3 +121,17 @@ class AdjacencyList:
             cur = cur.next
 
         print("]")
+
+
+if __name__ == "__main__":
+    test = AdjacencyList(10)
+    test.addEdge(0, 1)
+    test.addEdge(1, 2)
+    test.addEdge(2, 3)
+    test.addEdge(3, 4)
+    test.addEdge(4, 5)
+    test.addEdge(5, 6)
+    test.addEdge(6, 7)
+    test.addEdge(7, 8)
+    test.addEdge(8, 9)
+    test.edgePaths(0)

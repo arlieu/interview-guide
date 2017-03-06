@@ -8,8 +8,8 @@ class Queue:
         self.cnt += 1
 
     def dequeue(self):
-        self.queue.pop()
         self.cnt -= 1
+        return self.queue.pop()
 
     def peek(self):
         return self.queue[-1]

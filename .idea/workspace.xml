@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f95977c2-d429-4846-b937-a79a60e69611" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/graphing/breadth_first_search/breadth_first_search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interview/coding/medium/k-most-frequent-elements.py" />
+    <list default="true" id="f95977c2-d429-4846-b937-a79a60e69611" name="Default" comment="k-most-frequent-elements, bfs">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/graphing/depth_first_search/depth_first_search.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures/graphs/adjacency_list.py" afterPath="$PROJECT_DIR$/data_structures/graphs/adjacency_list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures/linked_lists/doubly_linked.py" afterPath="$PROJECT_DIR$/data_structures/linked_lists/doubly_linked.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures/linked_lists/singly_linked.py" afterPath="$PROJECT_DIR$/data_structures/linked_lists/singly_linked.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures/queues/FIFO.py" afterPath="$PROJECT_DIR$/data_structures/queues/FIFO.py" />
     </list>
     <ignored path="interview-prep.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,9 +19,10 @@
     <SUITE FILE_PATH="coverage/interview-guide$linked_list_palindrome.coverage" NAME="linked-list-palindrome Coverage Results" MODIFIED="1487433951312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/medium" />
     <SUITE FILE_PATH="coverage/interview-guide$heapsort.coverage" NAME="heapsort Coverage Results" MODIFIED="1488461974902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/sorting/efficient" />
     <SUITE FILE_PATH="coverage/interview-guide$adjacency_list.coverage" NAME="adjacency_list Coverage Results" MODIFIED="1488719839297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/graphs" />
-    <SUITE FILE_PATH="coverage/interview-guide$breadth_first_search.coverage" NAME="breadth_first_search Coverage Results" MODIFIED="1488805002339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/graphing/breadth_first_search" />
+    <SUITE FILE_PATH="coverage/interview-guide$breadth_first_search.coverage" NAME="breadth_first_search Coverage Results" MODIFIED="1488806338878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/graphing/breadth_first_search" />
     <SUITE FILE_PATH="coverage/interview-guide$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1488461934715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/sorting/efficient" />
     <SUITE FILE_PATH="coverage/interview-guide$k_most_frequent_elements.coverage" NAME="k-most-frequent-elements Coverage Results" MODIFIED="1488656120536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/medium" />
+    <SUITE FILE_PATH="coverage/interview-guide$depth_first_search.coverage" NAME="depth_first_search Coverage Results" MODIFIED="1488806928204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/graphing/depth_first_search" />
     <SUITE FILE_PATH="coverage/interview-guide$shortest_path_with_obstacles.coverage" NAME="shortest-path-with-obstacles Coverage Results" MODIFIED="1487987224810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview/coding/hard" />
     <SUITE FILE_PATH="coverage/interview-guide$quicksort.coverage" NAME="quicksort Coverage Results" MODIFIED="1488462507759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/sorting/efficient" />
     <SUITE FILE_PATH="coverage/interview-guide$priority_queue.coverage" NAME="priority_queue Coverage Results" MODIFIED="1488462513915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/queues" />
@@ -47,11 +43,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="breadth_first_search.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="breadth_first_search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/graphing/breadth_first_search/breadth_first_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="depth_first_search.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/graphing/depth_first_search/depth_first_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -143,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithms/graph" />
         <option value="$PROJECT_DIR$/algorithms/greedy/dijkstra.py" />
         <option value="$PROJECT_DIR$/algorithms/graphing/__init__.py" />
         <option value="$PROJECT_DIR$/algorithms/graphing/graph" />
@@ -194,6 +199,7 @@
         <option value="$PROJECT_DIR$/data_structures/graphs/adjacency_list.py" />
         <option value="$PROJECT_DIR$/data_structures/queues/FIFO.py" />
         <option value="$PROJECT_DIR$/algorithms/graphing/breadth_first_search/breadth_first_search.py" />
+        <option value="$PROJECT_DIR$/algorithms/graphing/depth_first_search/depth_first_search.py" />
       </list>
     </option>
   </component>
@@ -378,24 +384,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data_structures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queues" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -415,28 +403,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="graphing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greedy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,6 +425,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dynamic_programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interview-guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interview-guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="depth_first_search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,25 +478,7 @@
       <recent name="C:\Users\Avery\Documents\GitHub\interview-guide\algorithms\graphing\greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.breadth_first_search">
-    <configuration default="false" name="priority_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/queues" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interview-guide" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structures/queues/priority_queue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.depth_first_search">
     <configuration default="false" name="k-most-frequent-elements" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -577,6 +547,24 @@
       <module name="interview-guide" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/graphing/breadth_first_search/breadth_first_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="depth_first_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/graphing/depth_first_search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interview-guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/graphing/depth_first_search/depth_first_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -796,19 +784,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.priority_queue" />
-      <item index="1" class="java.lang.String" itemvalue="Python.k-most-frequent-elements" />
-      <item index="2" class="java.lang.String" itemvalue="Python.adjacency_matrix" />
-      <item index="3" class="java.lang.String" itemvalue="Python.adjacency_list" />
-      <item index="4" class="java.lang.String" itemvalue="Python.breadth_first_search" />
+      <item index="0" class="java.lang.String" itemvalue="Python.k-most-frequent-elements" />
+      <item index="1" class="java.lang.String" itemvalue="Python.adjacency_matrix" />
+      <item index="2" class="java.lang.String" itemvalue="Python.adjacency_list" />
+      <item index="3" class="java.lang.String" itemvalue="Python.breadth_first_search" />
+      <item index="4" class="java.lang.String" itemvalue="Python.depth_first_search" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.breadth_first_search" />
-        <item index="1" class="java.lang.String" itemvalue="Python.adjacency_list" />
-        <item index="2" class="java.lang.String" itemvalue="Python.adjacency_matrix" />
-        <item index="3" class="java.lang.String" itemvalue="Python.k-most-frequent-elements" />
-        <item index="4" class="java.lang.String" itemvalue="Python.priority_queue" />
+        <item index="0" class="java.lang.String" itemvalue="Python.depth_first_search" />
+        <item index="1" class="java.lang.String" itemvalue="Python.breadth_first_search" />
+        <item index="2" class="java.lang.String" itemvalue="Python.adjacency_list" />
+        <item index="3" class="java.lang.String" itemvalue="Python.adjacency_matrix" />
+        <item index="4" class="java.lang.String" itemvalue="Python.k-most-frequent-elements" />
       </list>
     </recent_temporary>
   </component>
@@ -875,7 +863,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488463061158</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="k-most-frequent-elements, bfs">
+      <created>1488805561735</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1488805561735</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -888,7 +883,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3272933" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3272933" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -945,7 +940,8 @@
     <MESSAGE value="AVL Tree" />
     <MESSAGE value="Priority queue, sorting algorithms return sorted list" />
     <MESSAGE value="Dijkstra, A* reclassification" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dijkstra, A* reclassification" />
+    <MESSAGE value="k-most-frequent-elements, bfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="k-most-frequent-elements, bfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -964,13 +960,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interview/coding/medium/additive-numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/coding/hard/kth-closest-point.cpp" />
     <entry file="file://$PROJECT_DIR$/interview/coding/hard/kth-nearest-point.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1249,14 +1238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/graphing/breadth_first_search/breadth_first_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structures/queues/deque.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1474">
@@ -1293,6 +1274,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2992">
           <caret line="136" column="20" lean-forward="false" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/graphing/breadth_first_search/breadth_first_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/graphing/depth_first_search/depth_first_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>

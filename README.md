@@ -18,7 +18,7 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |**[Queues](https://github.com/arlieu/interview-guide/wiki/Data-Structures#queues)**|||
 |FIFO|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/queues/FIFO.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#fifo)|
 |Deque|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/queues/deque.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#deque)|
-|Priority Queue|code|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#priority-queue)|
+|Priority Queue|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/queues/priority_queue.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#priority-queue)|
 |**[Trees](https://github.com/arlieu/interview-guide/wiki/Data-Structures#trees)**|||
 |BST|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/trees/bst.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#binary-search-tree-bst)|
 |AVL|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/trees/avl.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#adelson-velskii-and-landis-avl-tree)|
@@ -58,11 +58,17 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 
 |**[Greedy](https://github.com/arlieu/interview-guide/wiki/Algorithms#greedy)**|||
 |:---|:---|:---|
-|Dijkstra's Algorithm|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/graphing/greedy/dijkstra.py)|notes|
 |Kruskal's Algorithm|code|notes|
 |Prim's Algorithm|code|notes|
+|Huffman Coding|code|notes|
 |**[Dynamic Programming](https://github.com/arlieu/interview-guide/wiki/Algorithms#dynamic-programming)**|||
-|Bellman-Ford Algorithm|code|notes|
+|Bellman-Ford Algorithm|code|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#bellman-ford-algorithm)|
+|Dijkstra's Algorithm|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/graphing/dynamic_programming/dijkstra.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#dijkstras-algorithm)|
+|A* Search Algorithm|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/graphing/dynamic_programming/a_star_search.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#a-search-algorithm)|
+|**[Breadth First Search](https://github.com/arlieu/interview-guide/wiki/Algorithms#breadth-first-search)**|||
+|Breadth First Search|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/graphing/breadth_first_search/breadth_first_search.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#breadth-first-search)|
+|**[Depth First Search](https://github.com/arlieu/interview-guide/wiki/Algorithms#depth-first-search)**|||
+|Depth First Search|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/graphing/depth_first_search/depth_first_search.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#depth-first-search)|
 
 <br />
 
@@ -90,6 +96,7 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |Iterative Inorder Traversal|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/iterative-inorder-tree-traversal.py)|notes|
 |Minimum Length Subarray|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/minimum-length-unsorted-subarray.py)|notes|
 |Linked List Palindrome|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/linked-list-palindrome.py)|notes|
+|k Most Frequent Elements|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/medium/k-most-frequent-elements.py)|notes|
 |**Hard**|||
 |Kth Nearest Point|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/hard/kth-nearest-point.cpp)|notes|
 |Shortest Path with Obstacle Avoidance|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/hard/shortest-path-obstacle-avoidance.py)|notes|

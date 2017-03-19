@@ -6,10 +6,9 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 
 --------------------------------
 
-
 ## Data Structures
 
-|**[Linked Lists](https://github.com/arlieu/interview-guide/wiki/Data-Structures#linked-lists)**|||
+|[Linked Lists](https://github.com/arlieu/interview-guide/wiki/Data-Structures#linked-lists)| | |
 |:---|:---|:---|
 |Singly Linked|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/linked_lists/singly_linked.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#singly-linked-list)|
 |Doubly Linked|[code](https://github.com/arlieu/interview-guide/blob/master/data_structures/linked_lists/doubly_linked.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Data-Structures#doubly-linked-list)|
@@ -39,7 +38,7 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 
 ### Sorting 
 
-|**[Bubblesorts](https://github.com/arlieu/interview-guide/wiki/Algorithms#bubblesorts)**|||
+|**[Bubblesorts](https://github.com/arlieu/interview-guide/wiki/Algorithms#bubblesorts)**| | |
 |:---|:---|:---|
 |Bubblesort|[code](https://github.com/arlieu/interview-guide/blob/master/algorithms/sorting/bubble/bubblesort.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Algorithms#bubblesorts)|
 |**[Simple Sorts](https://github.com/arlieu/interview-guide/wiki/Algorithms#simple-sorts)**|||
@@ -56,7 +55,7 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 
 ### Graphing
 
-|**[Greedy](https://github.com/arlieu/interview-guide/wiki/Algorithms#greedy)**|||
+|**[Greedy](https://github.com/arlieu/interview-guide/wiki/Algorithms#greedy)**| | |
 |:---|:---|:---|
 |Kruskal's Algorithm|code|notes|
 |Prim's Algorithm|code|notes|
@@ -79,7 +78,7 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 
 ### Coding
 
-|**Easy**|||
+|**Easy**| | |
 |:---|:---|:---|
 |Balanced Delimiters|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/balanced-delimiters.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Interview-Q&A#balanced-delimiters)|
 |First Repeating Character|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/easy/first-repeating-character.py)|[notes](https://github.com/arlieu/interview-guide/wiki/Interview-Q&A#first-repeating-character)|
@@ -100,10 +99,10 @@ This repo is my guide for interview preparation. Feel free to use it as you see 
 |**Hard**|||
 |Kth Nearest Point|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/hard/kth-nearest-point.cpp)|notes|
 |Shortest Path with Obstacle Avoidance|[code](https://github.com/arlieu/interview-guide/blob/master/interview/coding/hard/shortest-path-obstacle-avoidance.py)|notes|
-||code|notes|
+| |code|notes|
 
 ### Brain Teasers
-|**Easy**||
+|**Easy**| |
 |:---|:--|
 |Sudoku Sub-Grid|[Problem](https://github.com/arlieu/interview-guide/wiki/Interview-Q&A#sudoku-sub-grid)|
 |10x10x10 Rubik's Cube|[Problem](https://github.com/arlieu/interview-guide/wiki/Interview-Q&A#10x10x10-rubiks-cube)|
